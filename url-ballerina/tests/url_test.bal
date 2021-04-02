@@ -16,6 +16,8 @@
 
 import ballerina/test;
 
+//This is a test
+
 @test:Config {}
 isolated function testEncode() {
     string[] urls = [
